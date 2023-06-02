@@ -1,3 +1,28 @@
 body {
     background-color: rgb(73, 73, 73);
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1083px;
+    height: 30px;
+    margin: 71px auto 101px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 28px;
+    
+    font-family: 'JetBrainsmono', monospace;    
+}
