@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(73, 73, 73);
+    background: #2C2B3D;
 }
 
 nav {
@@ -25,4 +25,46 @@ li a{
     line-height: 28px;
     
     font-family: 'JetBrainsmono', monospace;    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main h2{
+    font-family: 'JetBrainsmono', monospace;
+    color: white;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+main h2 span {
+    color: #00BFA6;
+
+}
+
+main p{
+    color: #C2C2C2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+main p span {
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+footer {
+    font-family: 'JetBrainsmono', monospace;
+}
+
+#cadeado {
+
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
 }
