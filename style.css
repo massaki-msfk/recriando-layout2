@@ -1,5 +1,6 @@
 body {
     background: #2C2B3D;
+    
 }
 
 nav {
@@ -29,9 +30,17 @@ li a{
 
 main {
     display: flex;
-    justify-content: space-between;
+    width: 1092px;
+    height: 283px;
+    gap: 82px;
     align-items: center;
+    margin: 0 auto 157px;
+}
 
+section {
+    width: 604px;
+    height: 168px;
+    text-align: center;
 }
 
 main h2{
@@ -58,8 +67,18 @@ main p span {
     color: #00BFA6;
 }
 
+.line {
+    border: 1px solid #00BFA6;
+
+    width: 568px;
+    margin: 157px auto 27px;
+}
+
 footer {
     font-family: 'JetBrainsmono', monospace;
+    color: white;
+    margin: auto 356px;
+    text-align: center;
 }
 
 #cadeado {
