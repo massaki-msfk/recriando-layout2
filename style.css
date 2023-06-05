@@ -19,13 +19,17 @@ ul {
     gap: 64px;
 }
 
-li a{
+ul li a{
     color: white;
     text-decoration: none;
     font-size: 14px;
     line-height: 28px;
     
     font-family: 'JetBrainsmono', monospace;    
+}
+
+ul li a:hover{
+    font-weight: bold;
 }
 
 main {
@@ -79,6 +83,16 @@ footer {
     color: white;
     margin: auto 356px;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+footer a:hover{
+    font-weight: bold;
 }
 
 #cadeado {
